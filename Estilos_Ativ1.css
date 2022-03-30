@@ -1,0 +1,23 @@
+body{
+    background-color: #e9e4de;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    margin: 0px;
+}
+
+.header{
+    background-color: #ffa530;
+    width: 500px;
+    height: 500px;
+}
+
+.header.container{
+    background-color: #90ee90;
+    width: 50%;
+    height: 50%;
+}
