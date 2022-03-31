@@ -1,3 +1,13 @@
+
+
+
+
+CSS INLINE
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,20 +17,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 1 - PI</title>
 
-    <link rel="stylesheet" href="Estilos_Ativ1.css">
-
 </head>
 
 <body>
-    <div class="header">
-        <div class="cointainer">
-
-            <h1>Atividade 1</h1>
-
+    <div style="background-color: #ffa500; width: 500px; height: 500px">
+        <div style="background-color: #90ee90; width: 50%; height: 50%">
+            <p style="background-color: red;color: white; font-size: 25px; font-family: monospace; font-weight: bold;">
+            Meu nome é vini :)
+            </p>
+        </div>
+    </div>
+    <div style="width: 50%; height: 50vh; background-color: rgb(36, 36, 255);">
+        <div style="width: 75vh; width: 50%; background-color: rgb(255, 0, 0);">
 
         </div>
     </div>
 
 </body>
 
+</html>
+
+
+
+
+
+
+CSS INTERNO
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pai1">
+        <div class="filha1">
+            <p class="paragrafo1">
+              Meu nome é marcus :)
+            </p>
+        </div>
+    </div>
+    <div class="pai2">
+        <div class="filha2">
+
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .pai1
+    {
+        background-color: #d9ff00;
+        width: 400px;
+        height: 400px;
+    }
+
+    .pa1 .filha1
+    {
+        background-color: #80fdf7;
+        width: 30%;
+        height: 30%
+    }
+
+    .pai1 .filha1 .paragrafo1
+    {
+        background-color: rgb(255, 124, 49);
+        color: black;
+         font-size: 15px;
+          font-family: monospace;
+           font-weight: bold;
+    }
+
+    .pai2
+    {
+        width: 40%;
+        height: 50vh;
+        background-color: rgb(0, 255, 21);
+    }
+
+    .pai2 .filha2
+    {
+        width: 55vh;
+        width: 20%;
+        background-color: rgb(255, 68, 68);
+    }
+</style>
+
+
+
+
+CSS EXTERNO
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <link rel="stylesheet" href="Estilos_Ativ1.css">
+
+</head>
+<body>
+    <div class="pai1">
+        <div class="filha1">
+            <p class="paragrafo1">
+              Meu nome é Marcus Vinicius :)
+            </p>
+        </div>
+    </div>
+    <div class="pai2">
+        <div class="filha2">
+
+        </div>
+    </div>
+</body>
 </html>
